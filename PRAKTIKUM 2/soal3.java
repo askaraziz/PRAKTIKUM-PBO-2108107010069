@@ -1,4 +1,4 @@
-public class Prak3Soal3
+public class soal3
 {
 public static void main(String arg[])
 {
