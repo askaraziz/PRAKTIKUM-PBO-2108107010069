@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Diskon {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int harga,jumlah,totalharga,diskon,total;
+
+        System.out.print("harga barang :");
+        harga=input.nextInt();
+        System.out.print("jumlah barang :");
+        jumlah=input.nextInt();
+
+        totalharga=jumlah * harga;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+        diskon=totalharga *15/100;
+        total=totalharga - diskon;
+        System.out.println("total harga adalah :" + total + " ");
+    }
+}
