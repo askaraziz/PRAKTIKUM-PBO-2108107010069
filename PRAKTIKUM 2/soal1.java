@@ -1,4 +1,4 @@
-public class Prak3Soal1 {
+public class soal1 {
     public static void main(String args[]) {
        float a = 3;
        float b = 2;
